@@ -1,54 +1,57 @@
-*{
+* {
     margin: 0;
-    padding:0;
+    padding: 0;
     box-sizing: border-box;
     font-family: 'Fredoka', sans-serif;
-font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
 }
 
-:root{
+:root {
     /* Color styles */
---bg-heade: #255EE9;
---bg-gray: #F6F6F6;
---bg-footer: #23272A;
---title: #000000;
---botton-purple: #7289DA;
+    --bg-heade: #255EE9;
+    --bg-gray: #efefef;
+    --bg-footer: #23272A;
+    --title: #000000;
+    --botton-purple: #7289DA;
 }
 
-.d-flex{
+header {
+    background-color: var(--bg-heade);
+}
+
+footer {
+    background-color: var(--bg-footer);
+    color: white;
+}
+
+.bg-odd{
+    background-color: var(--bg-gray);
+}
+/* flex */
+.d-flex {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     align-content: flex-start;
 }
 
-.flex-img{
+.reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+.flex-img {
     display: flex;
     flex-flow: row wrap;
     align-content: flex-start;
 }
+/* classi generali */
 
-.center{
-    align-items: center;
-}
-body{
-    background-color: var(--bg-gray);
-    
-}
-.img{
-    display: flex;
-    flex-flow: row wrap;
-    align-content: flex-start;
-    align-items: center;
-}
-
-.text-img{
-    width: 20%;
-    display: flex;
-    text-align: middle;
-}
-#hero{
+#hero {
     background-image: url("../img/jumbo.png");
+
     background-size: cover;
     background-repeat: no-repeat;
     size: 100%;
@@ -56,35 +59,60 @@ body{
     min-height: 300px;
 }
 
-.container{
+.img {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+    align-items: center;
+}
+
+.text-img {
+    width: 30%;
+    display: flex;
+    text-align: middle;
+    flex-flow: column wrap;
+    padding: 50px;
+}
+
+/* bottoni/input */
+.download {
+    background-color: white;
+    color: var(--title);
+}
+
+.browser {
+    background-color: var(--title);
+    color: white;
+    width: 50px;
+}
+
+.border-radius {
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.container {
     width: 1200px;
     margin: 0 auto;
 }
 
-header{
-    background-color: var(--bg-heade);
+.sub-title {
+    padding: 2.2rem;
 }
 
-.debug{
-    border: 1px solid black;
-}
-
-footer{
-    background-color: var(--bg-footer);
-    color: white;
-}
-
-.text-center{
+.text-center {
     text-align: center;
-    color: white;
+    padding: 2.5rem;
 }
-ul{
+/* LISTE */
+ul {
     color: var(--botton-purple);
     list-style: none;
-    padding: 20px;
+    padding-left: 20px;
 }
 
-li{
+li {
     color: white;
-    padding-left: 20px;
+    padding-left: 5px;
+
 }
