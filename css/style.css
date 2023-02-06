@@ -30,9 +30,10 @@ body{
 #hero{
     background-image: url("../img/jumbo.png");
     background-size: cover;
-    min-height: 200px;
     background-repeat: no-repeat;
     size: 100%;
+    background-position: center;
+    min-height: 300px;
 }
 
 .container{
