@@ -96,12 +96,22 @@ footer {
     width: 50px;
 
 }
-
+.bot-purple{
+    background-color: var(--botton-purple);
+    color: white;
+   
+}
 .border-radius {
     border-radius: 20px;
     padding: 10px;
 }
-
+.download{
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+}
+/* text */
 .sub-title {
     padding-top: 2.2rem;
     font-size: 1em;
@@ -117,19 +127,8 @@ h1{
     padding: 10px;
 
 }
-.download{
-    margin: 0 auto;
-    text-align: center;
-    padding: 10px;
-    background-color: white;
-}
-.bot-purple{
-    background-color: var(--botton-purple);
-    color: white;
-    width: 150px;
-    margin: 0 auto;
-   
-}
+
+
 /* LISTE */
 ul {
     color: var(--botton-purple);
@@ -139,6 +138,6 @@ ul {
 
 li {
     color: white;
-    padding-left: 5px;
+
 
 }
