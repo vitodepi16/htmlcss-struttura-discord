@@ -20,13 +20,20 @@
     align-content: flex-start;
 
 }
-
+.center{
+    align-items: center;
+}
 body{
     background-color: var(--bg-gray);
 }
 
+#hero{
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+}
+
 .container{
-    width: 80%;
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -40,12 +47,14 @@ header{
 
 footer{
     background-color: var(--bg-footer);
+    color: white;
+}
+
+ul{
+    color: var(--botton-purple);
+    list-style: none;
 }
 
 li{
-    list-style: none;
     color: white;
-}
-ul{
-    color: var(--botton-purple);
 }
