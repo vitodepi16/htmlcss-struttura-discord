@@ -20,8 +20,14 @@ font-family: 'Noto Sans', sans-serif;
     flex-flow: row wrap;
     justify-content: space-between;
     align-content: flex-start;
-
 }
+
+.flex-img{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+}
+
 .center{
     align-items: center;
 }
@@ -29,7 +35,18 @@ body{
     background-color: var(--bg-gray);
     
 }
+.img{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+    align-items: center;
+}
 
+.text-img{
+    width: 20%;
+    display: flex;
+    text-align: middle;
+}
 #hero{
     background-image: url("../img/jumbo.png");
     background-size: cover;
@@ -59,12 +76,15 @@ footer{
 
 .text-center{
     text-align: center;
+    color: white;
 }
 ul{
     color: var(--botton-purple);
     list-style: none;
+    padding: 20px;
 }
 
 li{
     color: white;
+    padding-left: 20px;
 }
