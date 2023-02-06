@@ -22,11 +22,19 @@ header {
 footer {
     background-color: var(--bg-footer);
     color: white;
+    padding: 80px;
 }
 
 .bg-odd{
     background-color: var(--bg-gray);
 }
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
 /* flex */
 .d-flex {
     display: flex;
@@ -73,9 +81,11 @@ footer {
     flex-flow: column wrap;
     padding: 50px;
 }
-
+.zona-dl{
+    margin: 50px;
+}
 /* bottoni/input */
-.download {
+.bot-download {
     background-color: white;
     color: var(--title);
 }
@@ -84,6 +94,7 @@ footer {
     background-color: var(--title);
     color: white;
     width: 50px;
+
 }
 
 .border-radius {
@@ -91,18 +102,33 @@ footer {
     padding: 10px;
 }
 
-.container {
-    width: 1200px;
-    margin: 0 auto;
-}
-
 .sub-title {
-    padding: 2.2rem;
-}
+    padding-top: 2.2rem;
+    font-size: 1em;
+    padding-bottom: 2.2rem;
 
+}
+h1{
+    font-size: 2rem;
+    font-weight: bolder;
+}
 .text-center {
     text-align: center;
-    padding: 2.5rem;
+    padding: 10px;
+
+}
+.download{
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+}
+.bot-purple{
+    background-color: var(--botton-purple);
+    color: white;
+    width: 150px;
+    margin: 0 auto;
+   
 }
 /* LISTE */
 ul {
