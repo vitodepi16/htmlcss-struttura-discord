@@ -30,6 +30,9 @@ body{
 #hero{
     background-image: url("../img/jumbo.png");
     background-size: cover;
+    min-height: 200px;
+    background-repeat: no-repeat;
+    size: 100%;
 }
 
 .container{
@@ -50,6 +53,9 @@ footer{
     color: white;
 }
 
+.text-center{
+    text-align: center;
+}
 ul{
     color: var(--botton-purple);
     list-style: none;
