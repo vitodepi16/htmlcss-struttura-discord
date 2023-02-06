@@ -14,9 +14,11 @@
 }
 
 .flex{
-    flex-flow: row;
+    display: flex;
+    flex-flow: row wrap;
     justify-content: space-between;
-    
+    align-content: flex-start;
+
 }
 
 body{
