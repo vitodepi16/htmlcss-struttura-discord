@@ -16,21 +16,26 @@
 .flex{
     flex-flow: row;
     justify-content: space-between;
-}
-
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
+    
 }
 
 body{
     background-color: var(--bg-gray);
 }
-/* header */
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
 
 header{
     background-color: var(--bg-heade);
 }
+
+.debug{
+    border: 1px solid black;
+}
+
 footer{
     background-color: var(--bg-footer);
 }
