@@ -17,6 +17,7 @@
 
 header {
     background-color: var(--bg-heade);
+    color: white;
 }
 
 footer {
@@ -134,7 +135,7 @@ a:active {
     padding-top: 2.2rem;
     font-size: 1em;
     padding-bottom: 2.2rem;
-
+    text-align: center;
 }
 h1{
     font-size: 2rem;
@@ -144,8 +145,10 @@ h1{
     text-align: center;
     padding: 10px;
 }
-
-
+h3{
+    padding: 20%;
+    line-height: 1.8;
+}
 /* LISTE */
 ul {
     color: var(--botton-purple);
